@@ -1,0 +1,161 @@
+.body{
+    margin:0;
+    
+}
+
+
+.image {
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 0.75%;
+    position: relative;
+}
+
+
+.video-title {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+    
+    
+}
+
+.channel-name,.video-stats {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top:5px
+    
+   
+    
+}
+.temp1{
+    padding-top: 110px;
+}
+.video-grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    margin-left: 150px;
+}
+
+
+
+.channel-pfp {
+    width: 60px;
+    border-radius: 50%;
+   
+}
+
+.video-col-grid {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: 90px 90px;
+}
+
+.sidebar{
+    
+    position: fixed;
+    left:0;
+    bottom:0;
+    top:120px;
+    width:150px;
+
+    
+}
+
+.sidebar-set{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+   
+}
+
+.sidebar-set:hover{
+    background-color: rgb(203, 198, 198);
+    transition: 0.5s;
+    height: 10px;
+    width:10px;
+}
+.sidebar-set div:hover{
+    background-color: rgb(228, 223, 223);
+    transition: 0.5s;
+    height: 10px;
+    width:10px;
+}
+.sidebar-set div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12px;
+    cursor: pointer;
+    
+}
+.home{
+    height: 30px;
+    width: 30px;
+    
+}
+.shorts{
+    height: 30px;
+    width: 30px;
+    
+}
+.subsc{
+    height: 30px;
+    width: 30px;
+    
+}
+.yt-music{
+    height: 30px;
+    width: 30px;
+    
+}
+.downloads{
+    height: 30px;
+    width: 30px;
+    
+}
+
+.thumbnail{
+    position: relative;
+}
+.time-bar{
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    right:20px;
+    bottom: 25px;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: 1px solid black;
+}
+
+.noti-cont{
+    position: relative;
+}
+
+.noti-cont-1{
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding-left: 6px;
+    padding-right: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    top:0;
+    right:30px;
+    font-family: Arial, Helvetica, sans-serif;    
+
+}
